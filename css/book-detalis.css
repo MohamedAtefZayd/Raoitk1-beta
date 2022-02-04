@@ -1,0 +1,17 @@
+footer{
+    display: block;
+}
+textarea{
+    outline: 0;
+    height: 150px;
+    padding: 1rem;
+    border-color: #81D9ED;
+    color: #393f44;
+}
+textarea:hover,textarea:focus{
+    border-color: #F1D63F;
+}
+.comment{
+        display: flex;
+    flex-direction: column;
+}

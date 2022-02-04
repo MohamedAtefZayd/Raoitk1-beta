@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ar">
+	<head>
+		<meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <!-- to resposive small devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>رؤيتك</title>
+        <link rel="icon" href="images/1631287944792.png" type="image/png">
+        <!-- css file to rest the templet -->
+        <link rel="stylesheet" href="css/normalize.css"/>
+        <!-- font awsom -->
+        <link rel="stylesheet" href="css/all.min.css"/>
+        <!-- haver effects -->
+        <link rel="stylesheet" href="css/hover-min.css"/>
+        <!-- bootstrab -->
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+        <!-- main css file -->
+        <link rel="stylesheet" href="css/main-style.css"/>
+        <link rel="stylesheet" href="css/book-detalis.css"/>
+        <!-- google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"/>
+	</head>
+    <body>
+       <!-- start header -->
+        <header>
+            <div class="container d-flex flex-row justify-content-evenly align-items-center">
+                <section class="col-5-lg">
+                    <img src="images/1631287944792.png" alt="logo" class="img-fluid hvr-float-shadow" width="250px" height="250px" />
+                </section>
+                <section class="">
+                    <h1 class="fw-bold fs-1 gry hvr-float-shadow">مكتبه دراسيه بالكتب الصوتيه</h1>
+                </section>
+            </div>
+        </header>
+        <!-- end header -->
+        
+        <!-- start navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+              <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <div class="row w-100">
+                            <div class="col-12 pr-0">
+                                <ul class="navbar-nav d-md-flex flex-md-row justify-content-md-between align-items-md-center">
+                                    <li class="nav-item">
+                                        <a class="nav-link p-1 hvr-underline-from-right" href="index.html"><i class="fas fa-home"></i>الصفحه الرئيسيه</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                          <a class="nav-link dropdown-toggle element hvr-underline-from-right" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="fas fa-book"></i>مناهج الصفوف الدراسيه
+                                          </a>
+                                          <ul class="dropdown-menu back" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item sec" href="#sec"><i class="fas fa-school"></i>المراحل المدرسيه</a></li>
+                                              <li><hr class="dropdown-divider"></li>
+                                            <li><a class="dropdown-item sec" href="#sec"><i class="fas fa-university"></i>المراحل الجامعيه</a></li>
+                                          </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link p-1 hvr-underline-from-right" href="empty%20-2.html"><i class="fas fa-comment-dots"></i>اتصل بنا</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link p-1 hvr-underline-from-right" href="empty%20-2.html"><i class="fas fa-address-card"></i>من نحن</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link p-1 hvr-underline-from-right" href="empty%20-2.html"><i class="fas fa-star"></i>التقيم</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+        </nav>
+        <!-- end navbar -->
+        
+        <!-- start content -->
+        <section class="book-details my-5">
+            <div class="container">
+                <section class="row info d-flex">
+                    <img src="images/WhatsApp%20Image%202021-09-14%20at%2011.56.59%20PM.jpeg" alt="book" class="img-fluid  col-md-4 col-sm-12 mb-5"/>
+                    <section class="col-8 text-center mx-auto">
+                        <h2 class="fw-bold fs-1 blu mb-5">اللغه الانجليزيه</h2>
+                        <h4 class="fw-bold fs-4 gry mb-4">الصف الثانى الاعدادى</h4>
+                        <h4 class="fw-bold fs-4 gry mb-4">عدد التسجيلات الصوتيه : 1</h4>
+                        <audio class="my_audio" controls preload="none" autoplay>
+                            <source src="voices/%D8%A7%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A%20%D8%AB%D8%A7%D9%86%D9%8A%D9%87%20%D8%A7%D8%B9%D8%AF%D8%A7%D8%AF%D9%8A.wav" type="audio/wav">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </section>
+                </section>
+                <hr class="mt-5">
+                <section class="comment mt-5">
+                    <h2 class=" fw-bold mb-4 fs-1 hvr-float-shadow" style="color: #81D9ED;text-align: center">التعليقات</h2>
+                    <textarea class=" mx-auto col-12 w-75 fs-5 text" placeholder="شاركنا تعليقك او ملاحظاتك لتحسين المحتوى" style="display: block"></textarea>
+                    <a class="btn btn-lg gry mx-auto fw-bold mt-3 send  btn-info btn-outline-secondary" style="width: fit-content;height: fit-content;">ارسال</a>
+                </section>
+                
+            </div>
+        </section>
+        <!-- end content -->
+        
+         <!-- start footer -->
+        <footer class="" id="sec">
+            <div class="container">
+                <div class="row py-3" style="color: black">
+                    <div class="fw-bold fs-3 arch text-center">
+                        الفئات<i class="fas fa-folder-open"></i>
+                    </div>
+                </div>
+                <section class="row cat fs-5">
+                    <div class="memori-1 col-xl-3 col-md-6 col-lg-3">
+                        <h3 class="">المرحله الابتدائيه<i class="fas fa-school"></i></h3>
+                        <ul>
+                            <li class="hvr-backward"><a href="empty.html"><i class="fas fa-book"></i>الصف الاول الابتدائى</a></li>
+                            <li class="hvr-backward"><a href="empty.html"><i class="fas fa-book"></i>الصف الثانى الابتدائى</a></li>
+                            <li class="hvr-backward"><a href="empty.html"><i class="fas fa-book"></i>الصف الثالث الابتدائى</a></li>
+                            <li class="hvr-backward"><a href="empty.html"><i class="fas fa-book"></i>الصف الرابع الابتدائى</a></li>
+                            <li class="hvr-backward"><a href="empty.html"><i class="fas fa-book"></i>الصف الخامس الابتدائى</a></li>
+                            <li class="hvr-backward"><a href="empty.html"><i class="fas fa-book"></i>الصف السادس الابتدائى</a></li>
+                        </ul>
+                    </div>
+                    <div class="memori-2 col-xl-3 col-md-6 col-lg-3">
+                        <h3 class="">المرحله الاعداديه<i class="fas fa-school"></i></h3>
+                        <ul>
+                            <li class="hvr-backward"><a href="empty.html"><i class="fas fa-book"></i>الصف الاول الاعدادى</a></li>
+                            <li class="hvr-backward"><a href="empty.html"><i class="fas fa-book"></i>الصف الثانى الاعدادى</a></li>
+                            <li class="hvr-backward"><a href="empty.html"><i class="fas fa-book"></i>الصف الثالث الاعدادى</a></li>
+                        </ul>
+                    </div>
+                    <div class="memori-3 col-xl-3 col-md-6 col-lg-3">
+                        <h3 class="">المرحله الثانويه<i class="fas fa-school"></i></h3>
+                        <ul>
+                            <li class="hvr-backward"><a href="empty.html"><i class="fas fa-book"></i>الصف الاول الثانويه</a></li>
+                            <li class="hvr-backward"><a href="empty.html"><i class="fas fa-book"></i>الصف الثانى الثانويه</a></li>
+                            <li class="hvr-backward"><a href="empty.html"><i class="fas fa-book"></i>الصف الثالث الثانويه</a></li>
+                        </ul>
+                    </div>
+                    <div class="memori-4 col-xl-3 col-md-6 col-lg-3">
+                        <h3 class="">المرحله الجامعيه<i class="fas fa-university"></i></h3>
+                        <ul>
+                            <li style="color: #1051a0">عذرا ! سوف تتوفر المناهج قربيا</li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </footer>
+        <section class="the-end">
+            <div class="container">
+                <div class="row selection">
+                    <section class="right col-6">
+                        <img src="images/1631287944792.png" alt="logo" class="img-fluid hvr-float-shadow" width="75px" height="75px" />
+                    </section>
+                    <section class="left col-6">
+                        <div class="fw-bold blu fs-4">جميع الحقوق محفوظه لموقع رؤيتك &copy;</div>
+                    </section>
+                </div>
+            </div>
+        </section>
+        <!-- end footer -->
+        <script src="js/popper.min.js"></script>
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/main-js.js"></script>
+        <script>
+            $(".my_audio").trigger('load');
+            function play_audio(task) {
+                if(task == 'play'){
+                    $(".my_audio").trigger('play');
+                }
+                if(task == 'stop'){
+                    $(".my_audio").trigger('pause');
+                    $(".my_audio").prop("currentTime",0);
+                }
+            }
+        </script>
+    </body>
+</html>
+        

@@ -1,0 +1,31 @@
+.contanir{
+        width:300px;
+        margin:auto;
+        border: 2px solid #DDD;
+        padding: 10px;
+        font-family: cursive , serif , sans-serif ,fantasy;
+        color: #37b06d;
+        background-color: #2c3e50;
+}
+h3{
+    font-weight: bold;
+    font-size: 30px
+}
+img{
+    width: 100%;
+    height: 200px;
+    border: 2px solid #DDD;
+}
+.contact{
+    border: 2px solid #DDD;
+    padding: 10px;
+    
+}
+ul{
+    list-style: none;
+    padding-left: 0px;
+}
+span{
+    font-weight: bold
+}
+.par{font-style: italic}
